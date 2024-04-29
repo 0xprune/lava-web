@@ -6,13 +6,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // List of RPC URLs fetched from the database (dummy data for example)
   let rpcUrls = [
-      "https://eth1.lava.build/lava-referer-4e189298-d2e6-4a66-8d19-923b97c19b45/",
-      "https://rpc2.example.com",
-      "https://rpc3.example.com"
+      "https://eth1.lava.build/lava-referer-4e189298-d2e6-4a66-8d19-923b97c19b45/"
   ];
 
   // Data template
-  const dataTemplate = '{{"method":"eth_getBalance","params":["0x8D97689C9818892B700e27F316cc3E41e17fBeb9", "latest"],"id":{},"jsonrpc":"2.0"}}';
+  const dataTemplate = '{{"method":"eth_getBalance","params":["0x6DA62967e52BDc3f458F93FFa37FCcF007863269", "latest"],"id":{},"jsonrpc":"2.0"}}';
 
   // Object to store previous balances for comparison
   const previousBalances = {};
